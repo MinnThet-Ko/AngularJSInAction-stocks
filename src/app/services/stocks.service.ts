@@ -13,7 +13,7 @@ export interface StockInterface {
 @Injectable({
   providedIn: 'root'
 })
-export class StockService {
+export class StocksService {
 
   constructor(private http: HttpClient) { }
 
